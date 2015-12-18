@@ -1,4 +1,5 @@
 require 'minitest/autorun'
+require_relative '../rot13.rb'
 
 class TestROT13 < MiniTest::Unit::TestCase
   def test_rot13
